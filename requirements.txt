@@ -1,4 +1,4 @@
 qdrant-client==1.8.2
-sentence-transfomers==2.5.1
+sentence-transfomers==2.6.1
 transformers==2.1.0
 torch==2.2.2
