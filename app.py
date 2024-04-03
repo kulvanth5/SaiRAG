@@ -116,12 +116,12 @@ def check_opinion(query):
 st.title("Chatbot on Sai Literature")
 
 query = st.text_input("Ask your question :")
+btn = st.button('Search')
+                
+if btn:
 
-if st.button("Get answer"):
-
-    if text:
-
-        context = ''
+    try:
+         context = None
     
         if not check_opinion(query):
             context = user_search(query)
